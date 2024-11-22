@@ -100,3 +100,4 @@ sudo usermod -a -G docker "$LOCAL_USER"
 
 source development/apps/lazydocker.sh
 source development/apps/lazygit.sh
+source development/apps/zellij.sh
