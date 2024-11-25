@@ -17,6 +17,14 @@ packages=(
   # git graphical interface
   gitg
 
+  # gpu terminal
+  alacritty
+
+  # tdrop dependencies
+  xdotool
+  gawk
+  wmctrl
+
   # dns manager to support local domains
   # dnsmasq
 
@@ -104,3 +112,4 @@ sudo usermod -a -G docker "$LOCAL_USER"
 source development/apps/lazydocker.sh
 source development/apps/lazygit.sh
 source development/apps/zellij.sh
+source development/apps/tdrop.sh
