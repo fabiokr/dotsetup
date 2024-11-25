@@ -76,6 +76,9 @@ packages=(
 
   # better top
   btop
+
+  # shorter documentation
+  tldr
 )
 
 apt_install ${packages[@]}
