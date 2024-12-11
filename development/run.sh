@@ -87,6 +87,9 @@ packages=(
 
   # shorter documentation
   tldr
+
+  # cli diff tool
+  colordiff
 )
 
 apt_install ${packages[@]}
