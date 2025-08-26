@@ -42,6 +42,8 @@ packages=(
   flameshot
   # microsoft fonts
   ttf-mscorefonts-installer
+  # dynamic wallpapers
+  variety
 )
 
 apt_install ${packages[@]}
@@ -64,6 +66,9 @@ deb_install "/usr/bin/insync" "https://cdn.insynchq.com/builds/linux/3.9.4.60020
 
 # Obsidian
 deb_install "/usr/bin/obsidian" https://github.com/obsidianmd/obsidian-releases/releases/download/v1.7.4/obsidian_1.7.4_amd64.deb
+
+# Wallpapers
+git_install https://github.com/dharmx/walls ~/Downloads/walls
 
 # Gnome extensions
 source applications/apps/gnome-extensions.sh
