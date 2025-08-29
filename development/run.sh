@@ -116,3 +116,4 @@ source development/apps/lazydocker.sh
 source development/apps/lazygit.sh
 source development/apps/zellij.sh
 source development/apps/tdrop.sh
+source development/apps/terminal.sh
